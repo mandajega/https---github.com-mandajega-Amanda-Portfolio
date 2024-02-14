@@ -153,6 +153,9 @@ img {
 }
 
 /*=============== HEADER & NAV ===============*/
+.header{
+    position:fixed;
+}
 
 
 /* Navigation for mobile devices */
