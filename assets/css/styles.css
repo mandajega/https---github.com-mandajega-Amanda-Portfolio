@@ -428,7 +428,7 @@ img {
   transition: transform .4s;
 }
 
-.about__skills-img:hover{
+.about__skills:hover{
   transform: translateY(-.5rem);
 }
 
@@ -436,7 +436,7 @@ img {
   grid-template-columns: repeat(5, max-content);
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 2rem 1.5rem;
   
 }
 /*=============== SERVICES ===============*/
