@@ -635,10 +635,27 @@ row-gap: 2rem;
 
 
 /* Swiper class */
+.swiper-pagination-bullets.swiper-pagination-horizontal{
+  bottom: -1rem;
+}
+
+.swiper-pagination-bullet{
+  background-color: var(--first-color-light);
+}
+
+.swiper-pagination-bullet-active{
+  background-color: var(--first-color);
+}
 
 
 /*=============== CONTACT ===============*/
+.contact__container{
+  padding-bottom: 4rem;
+}
 
+.contact__button{
+  justify-self: center;
+}
 
 /*=============== FOOTER ===============*/
 

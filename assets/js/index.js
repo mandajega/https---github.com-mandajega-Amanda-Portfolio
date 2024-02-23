@@ -21,3 +21,18 @@ modalClose.forEach((modalClose) => {
      
      
 })
+
+const swiperTestimonial = new Swiper('.testimonial__swiper', {
+    
+    loop: true,
+    spaceBetween: 32,
+    grabCursor: true,
+  
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+      dynamicBullets: true,
+      clickable: true,
+    },
+  
+})
