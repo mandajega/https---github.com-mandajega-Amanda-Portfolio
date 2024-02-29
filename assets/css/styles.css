@@ -490,6 +490,12 @@ body.dark-theme{
   gap: 2rem 1.5rem;
   
 }
+
+.about__hobbies{
+  text-align: center;
+}
+
+
 /*=============== SERVICES ===============*/
 .services__container{
 row-gap: 2rem;
