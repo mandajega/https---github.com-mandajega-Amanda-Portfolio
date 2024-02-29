@@ -495,6 +495,33 @@ body.dark-theme{
   text-align: center;
 }
 
+.hobbies__icon{
+  display: inline-block;
+  font-size: 3rem;
+  color: var(--first-color);
+  margin-bottom: 1.5rem;
+}
+.hobbies__container {
+  display: flex;
+  justify-content: left;
+  margin-left: 150px;
+  align-items: center;
+  text-align: center;
+}
+
+.services__icon {
+   /* Adjust as needed for spacing */
+  margin-right: 10px;
+}
+
+.hobbies__title{
+  font-size: var(--h3-font-size);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+
+
 
 /*=============== SERVICES ===============*/
 .services__container{
@@ -1021,13 +1048,14 @@ row-gap: 2rem;
     }
 
     .perfil__content{
-      width: 360px;
-      height: 360px;
+      width: 340px;
+      height: 340px;
       border-width: 20px;
     }
 
     .perfil__img{
       width: 300px;
+      
     }
 
     .home__rectangle{
